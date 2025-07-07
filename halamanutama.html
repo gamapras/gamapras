@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DATABASEALPHA</title>
+
+  <!-- Fonts dan CSS -->
+  <link rel="stylesheet" href="style (2).css" />
+  <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+  <script defer src="script.js"></script>
+</head>
+<body class="slide-fade-in">
+  <!-- Tampilkan Jam di Pojok -->
+  <div class="time-box" id="waktu"></div>
+
+  <!-- Tombol Kembali -->
+  <a href="#" class="back-btn" onclick="animateBack(event)">
+    <img src="foto/arrow-left.png" alt="back" />
+    <span>Back</span>
+  </a>
+
+  <!-- Overlay dan Tombol Menu -->
+  <div class="overlay">
+    <div class="button-group">
+      <a href="https://zona2.guru/pgslot88" class="btn" target="_blank">Link Website PGSLOT888</a>
+      <a href="https://zona2.guru/big777" class="btn" target="_blank">Link Website BIG777</a>
+      <a href="https://rtplivebig.xyz/" class="btn" target="_blank">RTP BIG777</a>
+      <a href="#" class="btn">Daily Deposit</a>
+      <a href="#" class="btn">Daily Withdraw</a>
+      <a href="#" class="btn">Performance Deposit Alpha</a>
+      <a href="#" class="btn">Performance Withdraw Alpha</a>
+      <a href="#" class="btn">Monitoring Bank Alpha</a>
+      <a href="#" class="btn">Schedule</a>
+      <a href="#" class="btn">Working Plan</a>
+      <a href="#" class="btn">Data Group Alpha</a>
+    </div>
+  </div>
+
+  <!-- Zeus -->
+  <div class="zeus">
+    <img src="https://i.postimg.cc/NFRmFw6j/Chat-GPT-Image-Jul-7-2025-02-28-44-AM.png" alt="Zeus" />
+  </div>
+
+  <!-- Falling Chips -->
+  <script>
+    const chipImages = [
+      "https://i.postimg.cc/50np9YCp/Chat-GPT-Image-Jul-7-2025-07-03-53-AM.png"
+    ];
+
+    function createFallingChip() {
+      const chip = document.createElement("img");
+      chip.src = chipImages[Math.floor(Math.random() * chipImages.length)];
+      chip.classList.add("falling-chip");
+      chip.style.left = Math.random() * window.innerWidth + "px";
+      chip.style.width = (40 + Math.random() * 30) + "px";
+      chip.style.transform = `rotate(${Math.random() * 360}deg)`;
+      document.body.appendChild(chip);
+      setTimeout(() => chip.remove(), 6000);
+    }
+
+    setInterval(createFallingChip, 1000);
+  </script>
+</body>
+</html>

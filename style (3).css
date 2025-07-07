@@ -1,0 +1,16 @@
+body {
+  /* Tambahkan styling body jika perlu */
+}
+
+#petir-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  opacity: 0.3; /* bisa kamu sesuaikan */
+  mix-blend-mode: screen; /* menyatu dengan background */
+  pointer-events: none;
+}
