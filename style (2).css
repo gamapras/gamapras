@@ -129,7 +129,7 @@ body {
 }
 
 .back-btn img {
-  width: 28px;
+  width: 100px;
   height: auto;
   object-fit: contain;
 }
