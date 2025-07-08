@@ -21,8 +21,8 @@ body {
   left: 0;
   min-width: 100%;
   min-height: 100%;
-  object-fit: cover;
   z-index: -1;
+  object-fit: cover;
 }
 
 /* 📦 Container Kartu */
